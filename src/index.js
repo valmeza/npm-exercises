@@ -9,3 +9,6 @@ sayHello();
 $(document).ready(() => {
    $('body').html(sayHello());
 });
+
+const saySomething = require('./say-hello');
+console.log(saySomething);
